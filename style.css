@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+header {
+    background-color: lightgrey;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 10rem;
+}
+
+.taskbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.links {
+    display: flex;
+}
+
+.links_link {
+    text-decoration: none;
+    background-color: whitesmoke;
+    border: 1px solid rgb(67, 74, 82);
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    color: black;
+    font-size: 1em;
+}
+
+.search input{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 1px solid rgb(67, 74, 82);
+    border-radius: 0.5em;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+main {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+.main-nav h1 {
+    font-size: 5.2em;
+    margin-bottom: 0.3em;
+}
+
+.caixa-principal {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 1.2rem;
+}
+
+.caixa-secundaria {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.caixa {
+    background-color: lightgrey;
+    padding: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    text-align: center;
+}
+
+.caixa img {
+    width: 15rem;
+}
+
+.caixa button {
+    all: unset;
+    background-color: white;
+    cursor: pointer;
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    border-radius: 0.5em;
+    border: 1px solid grey;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+}
